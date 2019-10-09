@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  <!-- font awesome cdn script -->
+  <script src="https://kit.fontawesome.com/9b85073d0a.js"></script>
+  <!-- google font cdn -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <!-- bootstrap scripts java/jquery -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" href="favicon.ico">
+  <title>YouSave</title>
+</head>
+
+<body>
+<section id="front">
+  <!-- Nav Bar-Expand medium sticky-->
+  <nav class="navbar navbar sticky-top navbar-expand-md bg-custom navbar-dark">
+      <a class="navbar-brand"  title="Company App Name" href="index.html">Yousave</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tog">
+        <span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="tog">
+        <ul class="navbar-nav ml-auto">
+          <!-- margin left for contents -->
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials"> Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing"> Premium</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- Title -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <h1>Welcome to Yousave!</h1>
+        <p class="sub">The Money saving app for you. Try it today, free.</p>
+        <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i><a class="downloadlink" href="https://play.google.com/store?hl=en"> Download</a>
+        </button>
+        <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i><a class="downloadlink" href="https://www.apple.com/uk/ios/app-store/"> Download</a>
+        </button>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <img class="phone" src="images/yousavepreview.png" alt="iphone-mockup">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 sales">
+          <i class="fas fa-check-circle featureicon fa-4x"></i>
+          <h3>Easy to use.</h3>
+          <p>A clean, clutter free modern experience with a minimalist design.</p>
+        </div>
+        <div class="col-lg-4 col-md-12 sales">
+          <i class="fas fa-wallet featureicon fa-4x"></i>
+          <h3>Effective.</h3>
+          <p>Our reviews dont lie, almost all our users have managed to save over £30 in their first week.</p>
+        </div>
+        <div class="col-lg-4 col-md-12 sales">
+          <i class="fas fa-hands-helping featureicon fa-4x"></i>
+          <h3>Reliable.</h3>
+          <p>We dedicate our time to updating our databases daily with new prices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouseltestimonials" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>"I no longer shop without it, saves me money and time as it decides the best store for me!"</h2>
+          <img class="reviewer" src="images/man.png" alt="customer 1 review">
+          <em>Andrew Hapkins, Berkshire</em>
+        </div>
+        <div class="carousel-item">
+          <h2>"I love Yousave! it's really helped me find the best stores to shop at to get the best deals"</h2>
+          <img class="reviewer" src="images/girl.png" alt="customer 2 review">
+          <em>Julie Sanders, Birmingham</em>
+        </div>
+        <div class="carousel-item">
+          <h2>"My mum told me about it! I was so shocked to see the deals in my local area"</h2>
+          <img class="reviewer" src="images/girl2.png" alt="customer 3 review">
+          <em>Samantha Lorrens, Leamington Spa</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouseltestimonials" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouseltestimonials" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <em>As seen on...</em> <br>
+    <img src="images/techcrunch.png" alt="tc-logo">
+    <img src="images/tnw.png" alt="tnw-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo">
+    <img src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Everyone's Needs</h2>
+    <p>Simple and affordable price plans for your and your diet.</p>
+    <div class="card-deck mb-4 mt-4">
+<!-- card 1 -->
+      <div class="col-lg-6">
+        <div class="card w-75 m-auto">
+          <div class="card-header">
+            <h3>Yousave: Freemium</h3>
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>News on local discounts</p>
+            <p>A membership in our exclusive Forum</p>
+            <p>1 Premium Recipe of the week</p>
+            <button type="button" class="btn btn-custom">
+              <a href="#" style="text-decoration: none; color:white;">Download Now</a></button>
+          </div>
+        </div>
+      </div>
+      <!-- card 2 -->
+      <div class="col-lg-6">
+        <div class="card w-75 m-auto">
+          <div class="card-header">
+            <h3>Yousave: Premium</h3>
+          </div>
+          <div class="card-body">
+            <h2>£9.99 / mo</h2>
+            <p>Unlimited Recipes designed by professional chefs</p>
+            <p>Exclusive offers from local businesses</p>
+            <p>Monthly Invitations to our exclusive meet ups</p>
+            <button type="button" class="btn btn-custom">
+              <a href="#" style="text-decoration: none; color:white;"> Get Premium </a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h4>Download the Yousave app today and see just how much you could be saving.</h4> <br>
+    <button type="button" class="btn btn-outline-light btn-lg btncta"><i class="fab fa-google-play"></i><a class="downloadlink" href="https://play.google.com/store?hl=en"> Download</a>
+    </button>
+    <button type="button" class="btn btn-dark btn-lg btncta"><i class="fab fa-apple"></i><a class="downloadlink" href="https://www.apple.com/uk/ios/app-store/"> Download</a>
+    </button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>Icons made by <a style="text-decoration:none; color:black;" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from
+      <a style="text-decoration:none; color:black;" href= "https://www.flaticon.com/" title="Flaticon"> www.flaticon.com </a></p>
+      <p>© Copyright 2019 Yousave</p>
+    </div>
+  </footer>
+
+<a class="topbutton" href="#" title="To the top"><img class="topbtn"src="images/up-arrow.png" alt="Top of page"> </a>
+
+</body>
+
+</html>
