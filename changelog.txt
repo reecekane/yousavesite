@@ -1,0 +1,19 @@
+Changelog:  Yousave Website
+Author: Reece Kane
+Date created: 16/10/19
+--------------------------
+Wednesday 9th October 2019
+First uploaded project folder to Github.
+[bug #1]
+Favicon background is white, not transparent.
+--------------------------
+Wednesay 16th October 2019
+Uploaded changelog.txt, updated readme.txt
+Uploaded new index.html with @media query for 
+responsive design for tablet/mobile viewports.
+[bug #2]
+Fixed TechCrunch.png image bug (Not displaying.)
+Uploaded new TechCrunch image file.(No fix)
+Uploaded new index.html with corrected <img> src 
+[fixed bug #2]
+--------------------------
