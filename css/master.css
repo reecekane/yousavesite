@@ -234,7 +234,7 @@ h3 {
 
   #press img {
     padding: 0.8rem;
-    width: 35%;
+    width: 38%;
   }
   .btncta {
     margin: auto;
@@ -245,6 +245,35 @@ h3 {
   }
 
   #testimonials h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .btn {
+    margin: 1rem;
+  }
+
+  .sales {
+    padding: 2rem;
+  }
+
+  .reviewer {
+    border: 2px #943564;
+    border-radius: 100%;
+    background-color: white;
+    margin: 1rem;
+    width: 10%;
+  }
+
+  #pricing {
+    padding: 0;
+  }
+
+  #cta h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+
+  #cta {
+    padding: 30px 0;
   }
 }
